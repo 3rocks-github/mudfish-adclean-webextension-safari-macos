@@ -1,8 +1,10 @@
 {
     "extension_name": {
-        "message": "Mudfish Adclean for macOS Extension"
+        "message": "Mudfish Adclean for macOS Extension",
+        "description": "The extension name."
     },
     "extension_description": {
-        "message": "Mudfish Adclean for macOS Extension. This is an ad blocking extension provided by Mudfish Networks that focuses on blocking ads on sites popular with Koreans."
+        "message": "Mudfish Adclean for macOS Extension. This is an ad blocking extension provided by Mudfish Networks that focuses on blocking ads on sites popular with Koreans.",
+        "description": "The extension description."
     }
 }
