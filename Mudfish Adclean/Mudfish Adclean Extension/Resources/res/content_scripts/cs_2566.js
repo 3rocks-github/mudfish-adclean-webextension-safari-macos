@@ -1,0 +1,22 @@
+
+function mudfish_adclean_d6902455d82cbf5f8cd042f9aa9aa494() {
+  try {
+    Sizzle(`section > div[class*=" "]:has(ins.adsbygoogle, a[href][target="_blank"][referrerpolicy="unsafe-url"])`).forEach(element => {
+      element.style.display = "none";
+    });
+  } catch (error) {
+    console.log('[ERROR] mudfish_adclean rule error: ' + error);
+  }
+}
+
+var mudfish_adclean_g_conf_d6902455d82cbf5f8cd042f9aa9aa494 = {
+  mudfish_adclean_filter_on: true
+};
+chrome.storage.local.get(mudfish_adclean_g_conf_d6902455d82cbf5f8cd042f9aa9aa494, function (items) {
+  if (mudfish_adclean_g_conf_d6902455d82cbf5f8cd042f9aa9aa494.mudfish_adclean_filter_on) {
+    const observer = new MutationObserver(() => {
+      mudfish_adclean_d6902455d82cbf5f8cd042f9aa9aa494();
+    });
+    observer.observe(document, { childList: true, subtree: true });
+  }
+});
