@@ -1,0 +1,761 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB9EC1AF2AD25DFA00C903DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9EC1AE2AD25DFA00C903DC /* AppDelegate.swift */; };
+		FB9EC1B32AD25DFA00C903DC /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1B12AD25DFA00C903DC /* Main.html */; };
+		FB9EC1B52AD25DFA00C903DC /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1B42AD25DFA00C903DC /* Icon.png */; };
+		FB9EC1B72AD25DFA00C903DC /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1B62AD25DFA00C903DC /* Style.css */; };
+		FB9EC1B92AD25DFA00C903DC /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1B82AD25DFA00C903DC /* Script.js */; };
+		FB9EC1BB2AD25DFA00C903DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9EC1BA2AD25DFA00C903DC /* ViewController.swift */; };
+		FB9EC1BE2AD25DFA00C903DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1BC2AD25DFA00C903DC /* Main.storyboard */; };
+		FB9EC1C02AD25DFB00C903DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1BF2AD25DFB00C903DC /* Assets.xcassets */; };
+		FB9EC1C82AD25DFB00C903DC /* Mudfish Adclean Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FB9EC1C72AD25DFB00C903DC /* Mudfish Adclean Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB9EC1CD2AD25DFB00C903DC /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9EC1CC2AD25DFB00C903DC /* SafariWebExtensionHandler.swift */; };
+		FB9EC1D02AD25DFB00C903DC /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1CF2AD25DFB00C903DC /* _locales */; };
+		FB9EC1D22AD25DFB00C903DC /* images in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1D12AD25DFB00C903DC /* images */; };
+		FB9EC1D42AD25DFB00C903DC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1D32AD25DFB00C903DC /* manifest.json */; };
+		FB9EC1D62AD25DFB00C903DC /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1D52AD25DFB00C903DC /* background.js */; };
+		FB9EC1D82AD25DFB00C903DC /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1D72AD25DFB00C903DC /* content.js */; };
+		FB9EC1DA2AD25DFB00C903DC /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1D92AD25DFB00C903DC /* popup.html */; };
+		FB9EC1DC2AD25DFB00C903DC /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1DB2AD25DFB00C903DC /* popup.css */; };
+		FB9EC1DE2AD25DFB00C903DC /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1DD2AD25DFB00C903DC /* popup.js */; };
+		FB9EC1F12AD25E5C00C903DC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9EC1F02AD25E5C00C903DC /* Cocoa.framework */; };
+		FB9EC1F42AD25E5C00C903DC /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1F32AD25E5C00C903DC /* blockerList.json */; };
+		FB9EC1F62AD25E5C00C903DC /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9EC1F52AD25E5C00C903DC /* ContentBlockerRequestHandler.swift */; };
+		FB9EC1FB2AD25E5C00C903DC /* Mudfish Adclean Content Blocker.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FB9EC1EE2AD25E5C00C903DC /* Mudfish Adclean Content Blocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB9EC1C92AD25DFB00C903DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB9EC1A32AD25DFA00C903DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9EC1C62AD25DFB00C903DC;
+			remoteInfo = "Mudfish Adclean Extension";
+		};
+		FB9EC1F92AD25E5C00C903DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB9EC1A32AD25DFA00C903DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB9EC1ED2AD25E5C00C903DC;
+			remoteInfo = "Mudfish Adclean Content Blocker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FB9EC1E62AD25DFB00C903DC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FB9EC1FB2AD25E5C00C903DC /* Mudfish Adclean Content Blocker.appex in Embed Foundation Extensions */,
+				FB9EC1C82AD25DFB00C903DC /* Mudfish Adclean Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FB9EC1AB2AD25DFA00C903DC /* Mudfish Adclean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mudfish Adclean.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9EC1AE2AD25DFA00C903DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB9EC1B22AD25DFA00C903DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		FB9EC1B42AD25DFA00C903DC /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FB9EC1B62AD25DFA00C903DC /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		FB9EC1B82AD25DFA00C903DC /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		FB9EC1BA2AD25DFA00C903DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB9EC1BD2AD25DFA00C903DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB9EC1BF2AD25DFB00C903DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB9EC1C12AD25DFB00C903DC /* Mudfish_Adclean.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mudfish_Adclean.entitlements; sourceTree = "<group>"; };
+		FB9EC1C22AD25DFB00C903DC /* Mudfish Adclean.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mudfish Adclean.entitlements"; sourceTree = "<group>"; };
+		FB9EC1C72AD25DFB00C903DC /* Mudfish Adclean Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mudfish Adclean Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9EC1CC2AD25DFB00C903DC /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		FB9EC1CF2AD25DFB00C903DC /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		FB9EC1D12AD25DFB00C903DC /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		FB9EC1D32AD25DFB00C903DC /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		FB9EC1D52AD25DFB00C903DC /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		FB9EC1D72AD25DFB00C903DC /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		FB9EC1D92AD25DFB00C903DC /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		FB9EC1DB2AD25DFB00C903DC /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		FB9EC1DD2AD25DFB00C903DC /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		FB9EC1DF2AD25DFB00C903DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9EC1E02AD25DFB00C903DC /* Mudfish_Adclean_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mudfish_Adclean_Extension.entitlements; sourceTree = "<group>"; };
+		FB9EC1EE2AD25E5C00C903DC /* Mudfish Adclean Content Blocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mudfish Adclean Content Blocker.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9EC1F02AD25E5C00C903DC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		FB9EC1F32AD25E5C00C903DC /* blockerList.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = blockerList.json; sourceTree = "<group>"; };
+		FB9EC1F52AD25E5C00C903DC /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
+		FB9EC1F72AD25E5C00C903DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB9EC1F82AD25E5C00C903DC /* Mudfish_Adclean_Content_Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mudfish_Adclean_Content_Blocker.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB9EC1A82AD25DFA00C903DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9EC1C42AD25DFB00C903DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9EC1EB2AD25E5C00C903DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9EC1F12AD25E5C00C903DC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB9EC1A22AD25DFA00C903DC = {
+			isa = PBXGroup;
+			children = (
+				FB9EC1AD2AD25DFA00C903DC /* Mudfish Adclean */,
+				FB9EC1CB2AD25DFB00C903DC /* Mudfish Adclean Extension */,
+				FB9EC1F22AD25E5C00C903DC /* Mudfish Adclean Content Blocker */,
+				FB9EC1EF2AD25E5C00C903DC /* Frameworks */,
+				FB9EC1AC2AD25DFA00C903DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB9EC1AC2AD25DFA00C903DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB9EC1AB2AD25DFA00C903DC /* Mudfish Adclean.app */,
+				FB9EC1C72AD25DFB00C903DC /* Mudfish Adclean Extension.appex */,
+				FB9EC1EE2AD25E5C00C903DC /* Mudfish Adclean Content Blocker.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB9EC1AD2AD25DFA00C903DC /* Mudfish Adclean */ = {
+			isa = PBXGroup;
+			children = (
+				FB9EC1AE2AD25DFA00C903DC /* AppDelegate.swift */,
+				FB9EC1BA2AD25DFA00C903DC /* ViewController.swift */,
+				FB9EC1BC2AD25DFA00C903DC /* Main.storyboard */,
+				FB9EC1BF2AD25DFB00C903DC /* Assets.xcassets */,
+				FB9EC1C12AD25DFB00C903DC /* Mudfish_Adclean.entitlements */,
+				FB9EC1C22AD25DFB00C903DC /* Mudfish Adclean.entitlements */,
+				FB9EC1B02AD25DFA00C903DC /* Resources */,
+			);
+			path = "Mudfish Adclean";
+			sourceTree = "<group>";
+		};
+		FB9EC1B02AD25DFA00C903DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB9EC1B12AD25DFA00C903DC /* Main.html */,
+				FB9EC1B42AD25DFA00C903DC /* Icon.png */,
+				FB9EC1B62AD25DFA00C903DC /* Style.css */,
+				FB9EC1B82AD25DFA00C903DC /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB9EC1CB2AD25DFB00C903DC /* Mudfish Adclean Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FB9EC1CC2AD25DFB00C903DC /* SafariWebExtensionHandler.swift */,
+				FB9EC1DF2AD25DFB00C903DC /* Info.plist */,
+				FB9EC1E02AD25DFB00C903DC /* Mudfish_Adclean_Extension.entitlements */,
+				FB9EC1CE2AD25DFB00C903DC /* Resources */,
+			);
+			path = "Mudfish Adclean Extension";
+			sourceTree = "<group>";
+		};
+		FB9EC1CE2AD25DFB00C903DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB9EC1CF2AD25DFB00C903DC /* _locales */,
+				FB9EC1D12AD25DFB00C903DC /* images */,
+				FB9EC1D32AD25DFB00C903DC /* manifest.json */,
+				FB9EC1D52AD25DFB00C903DC /* background.js */,
+				FB9EC1D72AD25DFB00C903DC /* content.js */,
+				FB9EC1D92AD25DFB00C903DC /* popup.html */,
+				FB9EC1DB2AD25DFB00C903DC /* popup.css */,
+				FB9EC1DD2AD25DFB00C903DC /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FB9EC1EF2AD25E5C00C903DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB9EC1F02AD25E5C00C903DC /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB9EC1F22AD25E5C00C903DC /* Mudfish Adclean Content Blocker */ = {
+			isa = PBXGroup;
+			children = (
+				FB9EC1F32AD25E5C00C903DC /* blockerList.json */,
+				FB9EC1F52AD25E5C00C903DC /* ContentBlockerRequestHandler.swift */,
+				FB9EC1F72AD25E5C00C903DC /* Info.plist */,
+				FB9EC1F82AD25E5C00C903DC /* Mudfish_Adclean_Content_Blocker.entitlements */,
+			);
+			path = "Mudfish Adclean Content Blocker";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB9EC1AA2AD25DFA00C903DC /* Mudfish Adclean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9EC1E72AD25DFB00C903DC /* Build configuration list for PBXNativeTarget "Mudfish Adclean" */;
+			buildPhases = (
+				FB9EC1A72AD25DFA00C903DC /* Sources */,
+				FB9EC1A82AD25DFA00C903DC /* Frameworks */,
+				FB9EC1A92AD25DFA00C903DC /* Resources */,
+				FB9EC1E62AD25DFB00C903DC /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB9EC1CA2AD25DFB00C903DC /* PBXTargetDependency */,
+				FB9EC1FA2AD25E5C00C903DC /* PBXTargetDependency */,
+			);
+			name = "Mudfish Adclean";
+			productName = "Mudfish Adclean";
+			productReference = FB9EC1AB2AD25DFA00C903DC /* Mudfish Adclean.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB9EC1C62AD25DFB00C903DC /* Mudfish Adclean Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9EC1E32AD25DFB00C903DC /* Build configuration list for PBXNativeTarget "Mudfish Adclean Extension" */;
+			buildPhases = (
+				FB9EC1C32AD25DFB00C903DC /* Sources */,
+				FB9EC1C42AD25DFB00C903DC /* Frameworks */,
+				FB9EC1C52AD25DFB00C903DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mudfish Adclean Extension";
+			productName = "Mudfish Adclean Extension";
+			productReference = FB9EC1C72AD25DFB00C903DC /* Mudfish Adclean Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FB9EC1ED2AD25E5C00C903DC /* Mudfish Adclean Content Blocker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB9EC1FC2AD25E5C00C903DC /* Build configuration list for PBXNativeTarget "Mudfish Adclean Content Blocker" */;
+			buildPhases = (
+				FB9EC1EA2AD25E5C00C903DC /* Sources */,
+				FB9EC1EB2AD25E5C00C903DC /* Frameworks */,
+				FB9EC1EC2AD25E5C00C903DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mudfish Adclean Content Blocker";
+			productName = "Mudfish Adclean Content Blocker";
+			productReference = FB9EC1EE2AD25E5C00C903DC /* Mudfish Adclean Content Blocker.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB9EC1A32AD25DFA00C903DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FB9EC1AA2AD25DFA00C903DC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FB9EC1C62AD25DFB00C903DC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					FB9EC1ED2AD25E5C00C903DC = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = FB9EC1A62AD25DFA00C903DC /* Build configuration list for PBXProject "Mudfish Adclean" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB9EC1A22AD25DFA00C903DC;
+			productRefGroup = FB9EC1AC2AD25DFA00C903DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB9EC1AA2AD25DFA00C903DC /* Mudfish Adclean */,
+				FB9EC1C62AD25DFB00C903DC /* Mudfish Adclean Extension */,
+				FB9EC1ED2AD25E5C00C903DC /* Mudfish Adclean Content Blocker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB9EC1A92AD25DFA00C903DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9EC1B52AD25DFA00C903DC /* Icon.png in Resources */,
+				FB9EC1BE2AD25DFA00C903DC /* Main.storyboard in Resources */,
+				FB9EC1B92AD25DFA00C903DC /* Script.js in Resources */,
+				FB9EC1B32AD25DFA00C903DC /* Main.html in Resources */,
+				FB9EC1C02AD25DFB00C903DC /* Assets.xcassets in Resources */,
+				FB9EC1B72AD25DFA00C903DC /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9EC1C52AD25DFB00C903DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9EC1D62AD25DFB00C903DC /* background.js in Resources */,
+				FB9EC1DC2AD25DFB00C903DC /* popup.css in Resources */,
+				FB9EC1DA2AD25DFB00C903DC /* popup.html in Resources */,
+				FB9EC1D22AD25DFB00C903DC /* images in Resources */,
+				FB9EC1D42AD25DFB00C903DC /* manifest.json in Resources */,
+				FB9EC1D02AD25DFB00C903DC /* _locales in Resources */,
+				FB9EC1D82AD25DFB00C903DC /* content.js in Resources */,
+				FB9EC1DE2AD25DFB00C903DC /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9EC1EC2AD25E5C00C903DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9EC1F42AD25E5C00C903DC /* blockerList.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB9EC1A72AD25DFA00C903DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9EC1BB2AD25DFA00C903DC /* ViewController.swift in Sources */,
+				FB9EC1AF2AD25DFA00C903DC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9EC1C32AD25DFB00C903DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9EC1CD2AD25DFB00C903DC /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB9EC1EA2AD25E5C00C903DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB9EC1F62AD25E5C00C903DC /* ContentBlockerRequestHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB9EC1CA2AD25DFB00C903DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9EC1C62AD25DFB00C903DC /* Mudfish Adclean Extension */;
+			targetProxy = FB9EC1C92AD25DFB00C903DC /* PBXContainerItemProxy */;
+		};
+		FB9EC1FA2AD25E5C00C903DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB9EC1ED2AD25E5C00C903DC /* Mudfish Adclean Content Blocker */;
+			targetProxy = FB9EC1F92AD25E5C00C903DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB9EC1B12AD25DFA00C903DC /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9EC1B22AD25DFA00C903DC /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		FB9EC1BC2AD25DFA00C903DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB9EC1BD2AD25DFA00C903DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB9EC1E12AD25DFB00C903DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB9EC1E22AD25DFB00C903DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FB9EC1E42AD25DFB00C903DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Mudfish Adclean Extension/Mudfish_Adclean_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H84YML94ZH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mudfish Adclean Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mudfish Adclean Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.mudfish.Mudfish-Adclean.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FB9EC1E52AD25DFB00C903DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Mudfish Adclean Extension/Mudfish_Adclean_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H84YML94ZH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mudfish Adclean Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mudfish Adclean Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.mudfish.Mudfish-Adclean.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FB9EC1E82AD25DFB00C903DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mudfish Adclean/Mudfish Adclean.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H84YML94ZH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mudfish Adclean";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 0.1.9;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.mudfish.Mudfish-Adclean";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FB9EC1E92AD25DFB00C903DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Mudfish Adclean/Mudfish Adclean.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H84YML94ZH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Mudfish Adclean";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 0.1.9;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "net.mudfish.Mudfish-Adclean";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FB9EC1FD2AD25E5C00C903DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Mudfish Adclean Content Blocker/Mudfish_Adclean_Content_Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H84YML94ZH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mudfish Adclean Content Blocker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mudfish Adclean Content Blocker";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.mudfish.Mudfish-Adclean.Mudfish-Adclean-Content-Blocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FB9EC1FE2AD25E5C00C903DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Mudfish Adclean Content Blocker/Mudfish_Adclean_Content_Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H84YML94ZH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mudfish Adclean Content Blocker/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Mudfish Adclean Content Blocker";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "net.mudfish.Mudfish-Adclean.Mudfish-Adclean-Content-Blocker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB9EC1A62AD25DFA00C903DC /* Build configuration list for PBXProject "Mudfish Adclean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9EC1E12AD25DFB00C903DC /* Debug */,
+				FB9EC1E22AD25DFB00C903DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9EC1E32AD25DFB00C903DC /* Build configuration list for PBXNativeTarget "Mudfish Adclean Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9EC1E42AD25DFB00C903DC /* Debug */,
+				FB9EC1E52AD25DFB00C903DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9EC1E72AD25DFB00C903DC /* Build configuration list for PBXNativeTarget "Mudfish Adclean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9EC1E82AD25DFB00C903DC /* Debug */,
+				FB9EC1E92AD25DFB00C903DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB9EC1FC2AD25E5C00C903DC /* Build configuration list for PBXNativeTarget "Mudfish Adclean Content Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB9EC1FD2AD25E5C00C903DC /* Debug */,
+				FB9EC1FE2AD25E5C00C903DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB9EC1A32AD25DFA00C903DC /* Project object */;
+}
