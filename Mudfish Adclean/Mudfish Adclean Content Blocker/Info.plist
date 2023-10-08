@@ -10,6 +10,6 @@
 		<string>$(PRODUCT_MODULE_NAME).ContentBlockerRequestHandler</string>
 	</dict>
 	<key>NSHumanReadableDescription</key>
-	<string>Mudfish Adclean Content Blocker</string>
+	<string>Content Blocker module used by Mudfish Adclean.</string>
 </dict>
 </plist>
