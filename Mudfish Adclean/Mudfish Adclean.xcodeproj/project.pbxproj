@@ -20,7 +20,6 @@
 		FB9EC1D02AD25DFB00C903DC /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1CF2AD25DFB00C903DC /* _locales */; };
 		FB9EC1D22AD25DFB00C903DC /* images in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1D12AD25DFB00C903DC /* images */; };
 		FB9EC1D42AD25DFB00C903DC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1D32AD25DFB00C903DC /* manifest.json */; };
-		FB9EC1D62AD25DFB00C903DC /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1D52AD25DFB00C903DC /* background.js */; };
 		FB9EC1F12AD25E5C00C903DC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9EC1F02AD25E5C00C903DC /* Cocoa.framework */; };
 		FB9EC1F42AD25E5C00C903DC /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1F32AD25E5C00C903DC /* blockerList.json */; };
 		FB9EC1F62AD25E5C00C903DC /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9EC1F52AD25E5C00C903DC /* ContentBlockerRequestHandler.swift */; };
@@ -81,7 +80,6 @@
 		FB9EC1CF2AD25DFB00C903DC /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
 		FB9EC1D12AD25DFB00C903DC /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		FB9EC1D32AD25DFB00C903DC /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
-		FB9EC1D52AD25DFB00C903DC /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		FB9EC1DF2AD25DFB00C903DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB9EC1E02AD25DFB00C903DC /* Mudfish_Adclean_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mudfish_Adclean_Extension.entitlements; sourceTree = "<group>"; };
 		FB9EC1EE2AD25E5C00C903DC /* Mudfish Adclean Content Blocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mudfish Adclean Content Blocker.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -191,7 +189,6 @@
 				FB9EC1CF2AD25DFB00C903DC /* _locales */,
 				FB9EC1D12AD25DFB00C903DC /* images */,
 				FB9EC1D32AD25DFB00C903DC /* manifest.json */,
-				FB9EC1D52AD25DFB00C903DC /* background.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -331,7 +328,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FB9EC1D62AD25DFB00C903DC /* background.js in Resources */,
 				FB9EC2082AD2676A00C903DC /* fonts in Resources */,
 				FB9EC2002AD2656200C903DC /* js in Resources */,
 				FB9EC2022AD265C500C903DC /* res in Resources */,
