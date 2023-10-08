@@ -79,7 +79,6 @@ function i18n_id(name) {
 function i18n() {
     i18n_attr("i18n_manifest_name", "popup_connect_homepage", "title");
     i18n_attr("i18n_setup", "adclean_options", "title");
-    i18n_id("i18n_block_count");
     i18n_id("i18n_filter_date");
     i18n_id("i18n_manifest_name");
     i18n_id("i18n_no_ad_block_working");
