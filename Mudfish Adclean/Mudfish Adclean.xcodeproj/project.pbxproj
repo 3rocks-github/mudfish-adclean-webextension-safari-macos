@@ -22,13 +22,15 @@
 		FB9EC1D42AD25DFB00C903DC /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1D32AD25DFB00C903DC /* manifest.json */; };
 		FB9EC1D62AD25DFB00C903DC /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1D52AD25DFB00C903DC /* background.js */; };
 		FB9EC1D82AD25DFB00C903DC /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1D72AD25DFB00C903DC /* content.js */; };
-		FB9EC1DA2AD25DFB00C903DC /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1D92AD25DFB00C903DC /* popup.html */; };
-		FB9EC1DC2AD25DFB00C903DC /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1DB2AD25DFB00C903DC /* popup.css */; };
-		FB9EC1DE2AD25DFB00C903DC /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1DD2AD25DFB00C903DC /* popup.js */; };
 		FB9EC1F12AD25E5C00C903DC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB9EC1F02AD25E5C00C903DC /* Cocoa.framework */; };
 		FB9EC1F42AD25E5C00C903DC /* blockerList.json in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1F32AD25E5C00C903DC /* blockerList.json */; };
 		FB9EC1F62AD25E5C00C903DC /* ContentBlockerRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB9EC1F52AD25E5C00C903DC /* ContentBlockerRequestHandler.swift */; };
 		FB9EC1FB2AD25E5C00C903DC /* Mudfish Adclean Content Blocker.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FB9EC1EE2AD25E5C00C903DC /* Mudfish Adclean Content Blocker.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FB9EC2002AD2656200C903DC /* js in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC1FF2AD2656200C903DC /* js */; };
+		FB9EC2022AD265C500C903DC /* res in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC2012AD265C500C903DC /* res */; };
+		FB9EC2042AD2668F00C903DC /* css in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC2032AD2668F00C903DC /* css */; };
+		FB9EC2062AD2669400C903DC /* html in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC2052AD2669400C903DC /* html */; };
+		FB9EC2082AD2676A00C903DC /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = FB9EC2072AD2676A00C903DC /* fonts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,9 +84,6 @@
 		FB9EC1D32AD25DFB00C903DC /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		FB9EC1D52AD25DFB00C903DC /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
 		FB9EC1D72AD25DFB00C903DC /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
-		FB9EC1D92AD25DFB00C903DC /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
-		FB9EC1DB2AD25DFB00C903DC /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
-		FB9EC1DD2AD25DFB00C903DC /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
 		FB9EC1DF2AD25DFB00C903DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB9EC1E02AD25DFB00C903DC /* Mudfish_Adclean_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mudfish_Adclean_Extension.entitlements; sourceTree = "<group>"; };
 		FB9EC1EE2AD25E5C00C903DC /* Mudfish Adclean Content Blocker.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mudfish Adclean Content Blocker.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +92,11 @@
 		FB9EC1F52AD25E5C00C903DC /* ContentBlockerRequestHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentBlockerRequestHandler.swift; sourceTree = "<group>"; };
 		FB9EC1F72AD25E5C00C903DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB9EC1F82AD25E5C00C903DC /* Mudfish_Adclean_Content_Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Mudfish_Adclean_Content_Blocker.entitlements; sourceTree = "<group>"; };
+		FB9EC1FF2AD2656200C903DC /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		FB9EC2012AD265C500C903DC /* res */ = {isa = PBXFileReference; lastKnownFileType = folder; path = res; sourceTree = "<group>"; };
+		FB9EC2032AD2668F00C903DC /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		FB9EC2052AD2669400C903DC /* html */ = {isa = PBXFileReference; lastKnownFileType = folder; path = html; sourceTree = "<group>"; };
+		FB9EC2072AD2676A00C903DC /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,14 +185,16 @@
 		FB9EC1CE2AD25DFB00C903DC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				FB9EC2072AD2676A00C903DC /* fonts */,
+				FB9EC2052AD2669400C903DC /* html */,
+				FB9EC2032AD2668F00C903DC /* css */,
+				FB9EC2012AD265C500C903DC /* res */,
+				FB9EC1FF2AD2656200C903DC /* js */,
 				FB9EC1CF2AD25DFB00C903DC /* _locales */,
 				FB9EC1D12AD25DFB00C903DC /* images */,
 				FB9EC1D32AD25DFB00C903DC /* manifest.json */,
 				FB9EC1D52AD25DFB00C903DC /* background.js */,
 				FB9EC1D72AD25DFB00C903DC /* content.js */,
-				FB9EC1D92AD25DFB00C903DC /* popup.html */,
-				FB9EC1DB2AD25DFB00C903DC /* popup.css */,
-				FB9EC1DD2AD25DFB00C903DC /* popup.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -329,13 +335,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB9EC1D62AD25DFB00C903DC /* background.js in Resources */,
-				FB9EC1DC2AD25DFB00C903DC /* popup.css in Resources */,
-				FB9EC1DA2AD25DFB00C903DC /* popup.html in Resources */,
+				FB9EC2082AD2676A00C903DC /* fonts in Resources */,
+				FB9EC2002AD2656200C903DC /* js in Resources */,
+				FB9EC2022AD265C500C903DC /* res in Resources */,
 				FB9EC1D22AD25DFB00C903DC /* images in Resources */,
+				FB9EC2042AD2668F00C903DC /* css in Resources */,
 				FB9EC1D42AD25DFB00C903DC /* manifest.json in Resources */,
 				FB9EC1D02AD25DFB00C903DC /* _locales in Resources */,
+				FB9EC2062AD2669400C903DC /* html in Resources */,
 				FB9EC1D82AD25DFB00C903DC /* content.js in Resources */,
-				FB9EC1DE2AD25DFB00C903DC /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

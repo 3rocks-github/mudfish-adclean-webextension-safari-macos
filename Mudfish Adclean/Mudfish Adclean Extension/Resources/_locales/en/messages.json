@@ -1,10 +1,102 @@
 {
-    "extension_name": {
-        "message": "Mudfish Adclean Extension",
-        "description": "The display name for the extension."
+    "i18n_manifest_name": {
+        "message": "Mudfish AdClean",
+        "description": ""
     },
-    "extension_description": {
-        "message": "Web extension module to block / hide ads on sites popular with Koreans.",
-        "description": "Description of what the extension does."
+    "i18n_manifiest_description": {
+        "message": "Mudfish WebExtension that blocks unwanted ads, with a focus on sites visited by Koreans.",
+        "description": ""
+    },
+    "i18n_describe_shortly": {
+        "message": "Please provide a brief description.",
+        "description": ""
+    },
+    "i18n_internal_error": {
+        "message": "An internal error occurred.",
+        "description": ""
+    },
+    "i18n_saved": {
+        "message": "Saved.",
+        "description": ""
+    },
+    "i18n_report_blocking_problem": {
+        "message": "Report a block issue",
+        "description": ""
+    },
+    "i18n_report": {
+        "message": "Report",
+        "description": ""
+    },
+    "i18n_loading_dotdotdot": {
+        "message": "Loading...",
+        "description": ""
+    },
+    "i18n_status": {
+        "message": "Status",
+        "description": ""
+    },
+    "i18n_filter_date": {
+        "message": "Filter Date",
+        "description": ""
+    },
+    "i18n_describe": {
+        "message": "Description",
+        "description": ""
+    },
+    "i18n_block_count": {
+        "message": "Block Count",
+        "description": ""
+    },
+    "i18n_no_ad_block_working": {
+        "message": "No ad blocking!",
+        "description": ""
+    },
+    "i18n_setup": {
+        "message": "Setup",
+        "description": ""
+    },
+    "i18n_options_html_title": {
+        "message": "Mudfish AdClean - Setup",
+        "description": ""
+    },
+    "i18n_general": {
+        "message": "General",
+        "description": ""
+    },
+    "i18n_enable_filter": {
+        "message": "Enable Filter",
+        "description": ""
+    },
+    "i18n_enable_filter_description": {
+        "message": "Turn on or off the Mudfish AdClean.  If you disable the filter, it will no longer apply the filter rules.",
+        "description": ""
+    },
+    "i18n_on": {
+        "message": "On",
+        "description": ""
+    },
+    "i18n_off": {
+        "message": "Off",
+        "description": ""
+    },
+    "i18n_document": {
+        "message": "Document",
+        "description": ""
+    },
+    "i18n_devtools_html_title": {
+        "message": "Mudfish AdClean - DevTools WebExtension",
+        "description": ""
+    },
+    "i18n_devtools_panel_html_title": {
+        "message": "Mudfish AdClean - DevTools Panel",
+        "description": ""
+    },
+    "i18n_applied_rules": {
+        "message": "Applied Rules",
+        "description": ""
+    },
+    "i18n_webextension": {
+        "message": "WebExtension",
+        "description": ""
     }
 }
