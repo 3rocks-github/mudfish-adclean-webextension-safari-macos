@@ -34,3 +34,25 @@ var g_conf = {
 browser.runtime.onMessage.addListener((request, sender, sendResponse) => {
     console.log("Received request: ", request);
 });
+
+function rules_info() {
+    var url = chrome.runtime.getURL('/res/rules.json');
+    fetch(url).then(async function(resp) {
+        var data = await resp.json();
+        if (g_conf.mudfish_adclean_rules_generation == -1 ||
+            g_conf.mudfish_adclean_rules_generation < data.generation) {
+            g_conf.mudfish_adclean_rules_generation = data.generation;
+            g_conf.mudfish_adclean_rules_generation_epoch = data.generation_epoch;
+            g_conf.mudfish_adclean_rules_generation_timestr = data.generation_timestr;
+            chrome.storage.local.set(g_conf);
+        }
+    });
+}
+
+(() => {
+    chrome.storage.local.get(g_conf, function (items) {
+        g_conf = items;
+        rules_info();
+    });
+})();
+

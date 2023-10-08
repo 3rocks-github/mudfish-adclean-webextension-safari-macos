@@ -36,14 +36,6 @@ function add_listeners() {
     button.addEventListener("click", (event) => {
         window.location = "/html/report_blocking_problem.html";
     });
-    button = document.querySelector("#adclean_options");
-    button.addEventListener("click", (event) => {
-        if (chrome.runtime.openOptionsPage) {
-            chrome.runtime.openOptionsPage();
-        } else {
-            window.open(chrome.runtime.getURL('/html/options.html'));
-        }
-    });
 }
 
 function apply_options() {
