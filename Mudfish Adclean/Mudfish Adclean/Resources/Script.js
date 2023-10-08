@@ -1,9 +1,9 @@
 function show(enabled, useSettingsInsteadOfPreferences) {
     if (useSettingsInsteadOfPreferences) {
-        document.getElementsByClassName('state-on')[0].innerText = "Mudfish Adclean’s extension is currently on. You can turn it off in the Extensions section of Safari Settings.";
-        document.getElementsByClassName('state-off')[0].innerText = "Mudfish Adclean’s extension is currently off. You can turn it on in the Extensions section of Safari Settings.";
-        document.getElementsByClassName('state-unknown')[0].innerText = "You can turn on Mudfish Adclean’s extension in the Extensions section of Safari Settings.";
-        document.getElementsByClassName('open-preferences')[0].innerText = "Quit and Open Safari Settings…";
+        document.getElementsByClassName('state-on')[0].innerText = "Mudfish Adclean for macOS 확장 프로그램이 활성화되어 있습니다. 확장 프로그램 설정에서 비활성화할 수 있습니다.";
+        document.getElementsByClassName('state-off')[0].innerText = "Mudfish Adclean for macOS 확장 프로그램이 비활성화되어 있습니다. 확장 프로그램 설정에서 활성화할 수 있습니다.";
+        document.getElementsByClassName('state-unknown')[0].innerText = "Safari 확장 프로그램 설정에서 Mudfish Adclean for macOS 기능을 활성화 할 수 있습니다.";
+        document.getElementsByClassName('open-preferences')[0].innerText = "종료 및 Safari 확장 프로그램 설정 열기";
     }
 
     if (typeof enabled === "boolean") {
