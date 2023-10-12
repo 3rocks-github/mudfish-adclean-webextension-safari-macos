@@ -3,7 +3,7 @@
     "default_locale": "ko",
     "name": "__MSG_i18n_manifest_name__",
     "description": "__MSG_i18n_manifiest_description__",
-    "version": "0.1.9",
+    "version": "0.2.1",
     "icons": {
         "48": "/images/icon-48.png",
         "96": "/images/icon-96.png",
