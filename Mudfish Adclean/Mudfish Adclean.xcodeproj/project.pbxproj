@@ -599,7 +599,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Mudfish Adclean/Mudfish Adclean.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = H84YML94ZH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -613,7 +613,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 0.1.9;
+				MARKETING_VERSION = 0.2.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -636,7 +636,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Mudfish Adclean/Mudfish Adclean.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = H84YML94ZH;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -650,7 +650,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				MARKETING_VERSION = 0.1.9;
+				MARKETING_VERSION = 0.2.4;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
